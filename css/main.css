@@ -11,17 +11,18 @@ body {
   flex-direction: column;
 }
 .layout a {
-  color: #0366d6;
   text-decoration: none;
 }
 .layout a:hover {
   text-decoration: underline;
+  color: black;
+  background-color: #ffffff;
 }
 header {
   background-color: #f4f3f1;
   display: flex;
   padding: 15px;
-  padding-left: 41px;
+  padding-left: 71px;
 }
 .body {
   display: flex;
@@ -185,4 +186,18 @@ h6 {
   left: -6px;
 }
 
-/* copy ^^^ */
+.github-profile {
+  border: 1px solid #2d2d2d;
+  top: 6px;
+  left: -23px;
+  position: absolute;
+  transform: rotate(-38deg);
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #2d2d2d;
+  font-size: 15px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
